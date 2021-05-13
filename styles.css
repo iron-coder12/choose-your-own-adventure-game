@@ -1,0 +1,144 @@
+@import url(troll.scss);
+body {
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a :hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Papyrus;
+  font-size: 5rem;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+p {
+  font-family: 'India Flower', cursive;
+  font-size: 2rem;
+}
+
+.scene {
+  height: 642px;
+  width: 1024px;
+}
+
+.scene img {
+  height: 1187px;
+}
+
+.scene .cont {
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.scene .cont h1 {
+  position: absolute;
+  left: 700px;
+  top: 50px;
+  text-align: center;
+}
+
+.scene .cont p {
+  position: absolute;
+  top: 600px;
+  left: 900px;
+  text-align: center;
+}
+
+/*Start*/
+.scene2 {
+  background-image: url("Pictures/chose_start.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 711px;
+}
+
+.scene2 .st {
+  font-family: Papyrus;
+  font-size: 2rem;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.scene2 .choose1 {
+  font-size: 18px;
+  margin-top: 250px;
+  text-decoration: none;
+}
+
+/*Fell!*/
+.scene3 {
+  background-image: url("Pictures/fell.png");
+  background-repeat: no-repeat;
+  height: 1300px;
+  width: 711px;
+  color: #000;
+}
+
+/*Troll*/
+.scene4 {
+  background-image: url("Pictures/chose_castle.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 711px;
+}
+
+/*dead*/
+.scene5 {
+  background-image: url(https://cdn.mos.cms.futurecdn.net/u8wSHMmMMXzZuAFBCmcsCK.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.scene5 p {
+  color: black;
+}
+
+/*After Troll dead*/
+.scene6 {
+  background-image: url(https://i.ytimg.com/vi/zLU-PteQvnQ/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  text-align: left;
+}
+
+/*Down Stairs*/
+.scene7 {
+  background-image: url(https://cdn.mos.cms.futurecdn.net/u8wSHMmMMXzZuAFBCmcsCK.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.scene7 p {
+  color: black;
+}
+
+/*won!*/
+.scene8 {
+  background-image: url(https://media.istockphoto.com/photos/treasure-chest-open-ancient-trunk-with-glowing-magic-lights-in-the-picture-id1160778039?k=6&m=1160778039&s=170667a&w=0&h=RRHYkVsNs9zvdRDBpJwrxkiRDqtLsxdaCjfStr0xQNA=);
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.scene8 p {
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
